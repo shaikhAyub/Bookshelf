@@ -52,6 +52,8 @@ body {
 
 .background {
   background: rgba(0, 0, 0, 0.7) url("./book1.jfif");
+  background-attachment: fixed;
+  background-position: center;
   background-size: cover;
   background-blend-mode: darken;
 }
@@ -137,10 +139,10 @@ body {
 }
 .one,
 .three {
-  background-color: rgb(27, 66, 78);
+  background-color: rgb(228, 204, 99);
 }
 .two {
-  background-color: rgb(73, 78, 27);
+  background-color: rgb(235, 114, 140);
 }
 
 .paras {
